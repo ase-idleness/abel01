@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>实用资源导航</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            padding: 15px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        h2 {
+            color: #2c3e50;
+            margin: 20px 0 10px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #3498db;
+            font-size: 18px;
+        }
+        
+        h2:first-child {
+            margin-top: 0;
+        }
+        
+        .resource-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+        
+        .resource-item {
+            padding: 8px 12px;
+            background: #f8f9fa;
+            border-radius: 4px;
+            transition: all 0.2s;
+            font-size: 13px;
+        }
+        
+        .resource-item:hover {
+            background: #e3f2fd;
+            transform: translateY(-1px);
+        }
+        
+        .resource-item a {
+            text-decoration: none;
+            color: #3498db;
+            display: block;
+        }
+        
+        .resource-item a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+        
+        .category-title {
+            margin-bottom: 8px; 
+            font-weight: 600; 
+            color: #34495e;
+            font-size: 14px;
+        }
+        
+        @media (max-width: 768px) {
+            .resource-grid {
+                grid-template-columns: 1fr;
+                gap: 6px;
+            }
+            
+            .container {
+                padding: 15px;
+            }
+            
+            body {
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 宝藏网站 -->
+        <h2>宝藏网站</h2>
+        <div class="resource-grid">
+            <div class="resource-item"><a href="https://fanyi.youdao.com/#/TextTranslate" target="_blank">有道翻译</a></div>
+            <div class="resource-item"><a href="https://www.youzack.com/" target="_blank">单词听力</a></div>
+            <div class="resource-item"><a href="https://www.wolframalpha.com/" target="_blank">Wolfram计算</a></div>
+            <div class="resource-item"><a href="https://zh.hnc101.ru/" target="_blank">Z-Library</a></div>
+            <div class="resource-item"><a href="https://sms-activate.io/" target="_blank">虚拟SMS</a></div>
+            <div class="resource-item"><a href="https://www.eapfoundation.com/reading/" target="_blank">Eap听说读写</a></div>
+            <div class="resource-item"><a href="https://fishros.org.cn/forum/topic/20/小鱼的一键安装系列" target="_blank">鱼香ROS</a></div>
+            <div class="resource-item"><a href="https://www.derivative-calculator.net/" target="_blank">自动求导</a></div>
+            <div class="resource-item"><a href="https://gptzero.me/" target="_blank">AI Detector测ai</a></div>
+            <div class="resource-item"><a href="https://aistudio.baidu.com/projectoverview/public" target="_blank">飞桨AI Studio</a></div>
+            <div class="resource-item"><a href="https://leetcode.cn/" target="_blank">LeetCode</a></div>
+            <div class="resource-item"><a href="https://blog.algomooc.com/" target="_blank">吴师兄刷力扣</a></div>
+            <div class="resource-item"><a href="https://www.xue8nav.com/" target="_blank">学吧导航</a></div>
+            <div class="resource-item"><a href="https://www.runoob.com/vscode/vscode-start-intro.html" target="_blank">VS教程</a></div>
+            <div class="resource-item"><a href="https://zhuanlan.zhihu.com/p/151031343" target="_blank">ROS教程-melodic</a></div>
+            <div class="resource-item"><a href="https://www.runoob.com/cplusplus/cpp-tutorial.html" target="_blank">C++菜鸟</a></div>
+            <div class="resource-item"><a href="https://nn.labml.ai/zh/" target="_blank">labml详释论文</a></div>
+            <div class="resource-item"><a href="https://github.com/" target="_blank">GitHub</a></div>
+        </div>
+
+        <!-- SCI必备 -->
+        <h2>SCI必备</h2>
+        <div class="resource-grid">
+            <div class="resource-item"><a href="https://www.storkapp.me/?ref=93617-11" target="_blank">前沿方向：文献鸟</a></div>
+            <div class="resource-item"><a href="https://www.aminer.cn/" target="_blank">AMiner</a></div>
+            <div class="resource-item"><a href="https://arxiv.org/" target="_blank">arXiv</a></div>
+            <div class="resource-item"><a href="https://arxiv.org/archive/cs" target="_blank">arxiv-cs</a></div>
+            <div class="resource-item"><a href="https://www.letpub.com.cn/index.php?page=journalapp&view=search" target="_blank">中科院分区：Let Pub</a></div>
+            <div class="resource-item"><a href="https://www.medreading.cn/pubmed_zh" target="_blank">影响因子：Med Reading</a></div>
+            <div class="resource-item"><a href="https://www.papermaster.ai/faq/" target="_blank">论文测评</a></div>
+            <div class="resource-item"><a href="https://admin.ju-feng.top/#/login" target="_blank">梯子1：飓风</a></div>
+            <div class="resource-item"><a href="https://yiyuan.co/#/dashboard" target="_blank">梯子2：一元</a></div>
+            <div class="resource-item"><a href="https://www.connectedpapers.com/" target="_blank">综述Connected Papers</a></div>
+            <div class="resource-item"><a href="http://tuzhidian.com/" target="_blank">论文可视化--图之典</a></div>
+            <div class="resource-item"><a href="https://quillbot.com/" target="_blank">QuillBot 润色降重</a></div>
+            <div class="resource-item"><a href="https://webkul.github.io/coolhue/" target="_blank">论文配色</a></div>
+            <div class="resource-item"><a href="https://www.shenjiangbi.com/" target="_blank">神降笔</a></div>
+            <div class="resource-item"><a href="https://www.wordtune.com/" target="_blank">Wordtune润色</a></div>
+            <div class="resource-item"><a href="https://jane.biosemantics.org/" target="_blank">选刊：Jane</a></div>
+            <div class="resource-item"><a href="https://www.journalguide.com/" target="_blank">Journal Guide</a></div>
+            <div class="resource-item"><a href="https://link.springer.com/journals" target="_blank">SpringerLink</a></div>
+            <div class="resource-item"><a href="https://journalfinder.elsevier.com/" target="_blank">Journal Finder</a></div>
+            <div class="resource-item"><a href="https://www.x-mol.com/" target="_blank">X-MOL学术平台</a></div>
+        </div>
+
+        <div class="category-title">文献下载</div>
+        <div class="resource-grid">
+            <div class="resource-item"><a href="https://sci-hub.org.cn/" target="_blank">Sci-Hub</a></div>
+            <div class="resource-item"><a href="https://webofscience.clarivate.cn/wos/alldb/basic-search" target="_blank">Web-of-science</a></div>
+            <div class="resource-item"><a href="https://xs.xasa.top/" target="_blank">Google镜像站</a></div>
+            <div class="resource-item"><a href="https://www.semanticscholar.org/" target="_blank">Semantic-ai</a></div>
+            <div class="resource-item"><a href="https://www.scidown.cn/" target="_blank">文献互助</a></div>
+            <div class="resource-item"><a href="https://pubscholar.cn/" target="_blank">公益学术</a></div>
+        </div>
+
+        <!-- Git收藏 -->
+        <h2>Git收藏</h2>
+        <div class="resource-grid">
+            <div class="resource-item"><a href="https://github.com/ZJU-FAST-Lab" target="_blank">浙大FAST-Lab</a></div>
+            <div class="resource-item"><a href="https://colalab.net/people" target="_blank">北航colalab</a></div>
+            <div class="resource-item"><a href="https://scalelab-sjtu.github.io/" target="_blank">上交ScaleLab-具身</a></div>
+            <div class="resource-item"><a href="https://github.com/lib-pku/libpku" target="_blank">北大课程资料</a></div>
+            <div class="resource-item"><a href="https://github.com/QSCTech/zju-icicles" target="_blank">浙大课程资料</a></div>
+        </div>
+    </div>
+</body>
+</html>
